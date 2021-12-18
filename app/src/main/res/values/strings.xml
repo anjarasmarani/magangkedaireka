@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Laut Kita Bisa</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sing">Signup</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Membuka navigation drawer</string>
+    <string name="navigation_drawer_close">Menutup navigation drawer</string>
+    <string name="spinner_title">Pilih Area</string>
+
+    <string name="pic_myslf">Ambil Sendiri</string>
+    <string name="cash_delivery">Cash on Delivery</string>
+    <string name="pay_online">Bayar online</string>
+    <string name="currency">Rp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
