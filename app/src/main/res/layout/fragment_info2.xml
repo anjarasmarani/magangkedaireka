@@ -34,7 +34,7 @@
             android:fontFamily="@font/quicksand_bold"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Pengiriman cepat"
+            android:text="Pengiriman Aman"
             android:textColor="@color/colorBalck"
             android:textSize="28dp"
             android:textStyle="bold" />
@@ -45,7 +45,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Pengiriman cepat dan gratis\n ke rumah atau kantor Anda"
+            android:text="Kami selalu berkomitmen \n untuk menjaga pesanan anda\n untuk tetap aman hingga tujuan"
             android:textColor="@color/colorBalck"
             android:textSize="16dp"
             android:textStyle="bold" />

@@ -45,7 +45,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Tidak ingin keluar? Tak masalah,\n kami ada untuk Anda"
+            android:text="Tidak ingin keluar rumah ?\n Tak masalah, kami ada untuk Anda"
             android:textColor="@color/colorBalck"
             android:textSize="16dp"
             android:textStyle="bold" />

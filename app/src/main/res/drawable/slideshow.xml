@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+android:drawable="@drawable/keramba1"
+        android:duration="2000"
+        />
+    <item
+        android:drawable="@drawable/keramba2"
+        android:duration="2000"/>
+    <item
+        android:drawable="@drawable/keramba3"
+        android:duration="2000"/>
+    <item
+        android:drawable="@drawable/keramba4"
+        android:duration="2000"/>
+    <item
+        android:drawable="@drawable/keramba5"
+        android:duration="2000"/>
+
+</animation-list>

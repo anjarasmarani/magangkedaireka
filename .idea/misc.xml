@@ -3,6 +3,56 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/bag.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/circale_green.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/circle.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/plus.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/rounded_cart.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/rounded_green.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_abouts.xml" value="0.31565656565656564" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_address.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_base.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_contectus.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_delivery_time2.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_delivery_time2_.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_feed_back.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_first.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_forgot.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_home.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_info.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_item_details.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_login.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_main.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_my_order_list.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_notification.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_notification_details.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_order_summary.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_poprates.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_profile.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_rates.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_select_area.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_sign.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_trams_and_condition.xml" value="0.264" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/app_bar_home.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/custome_mycard.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/custome_myoder.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/custome_prize.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/custome_sumrry.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_category.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_home.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_info1.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_info2.xml" value="0.4" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_info3.xml" value="0.4" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_item_list.xml" value="0.4" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_my_order.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_order_sumrry.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_plase_order.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_subcategory.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/item_banner.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/item_category.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/item_custome.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/nav_header_home.xml" value="0.4" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/menu/rates_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/FreshGrocery/app/src/main/res/drawable/bag.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/FreshGrocery/app/src/main/res/drawable/ic_img_first.xml" value="0.2911458333333333" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/FreshGrocery/app/src/main/res/drawable/ic_img_secound.xml" value="0.2911458333333333" />
@@ -71,7 +121,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -35,7 +35,7 @@
             android:fontFamily="@font/quicksand_bold"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Temukan hasil laut\n favorit Anda"
+            android:text="Temukan Hasil Laut\n Favorit Anda"
             android:textColor="@color/colorBalck"
             android:textSize="28dp"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Menyajikan lebih dari 10 macam produk"
+            android:text="Menyajikan produk segar \nlangsung dari tangan petani keramba"
             android:textColor="@color/colorBalck"
             android:textSize="16dp"
             android:textStyle="bold" />
