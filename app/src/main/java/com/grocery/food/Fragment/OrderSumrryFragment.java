@@ -20,6 +20,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.grocery.food.Activity.AddressActivity;
+import com.grocery.food.Activity.BuktiTf;
 import com.grocery.food.Activity.HomeActivity;
 import com.grocery.food.Activity.RazerpayActivity;
 import com.grocery.food.DataBase.DatabaseHelper;
@@ -189,6 +190,7 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
     private void OrderPlace(JSONArray jsonArray) {
         JSONObject jsonObject = new JSONObject();
         try {
+
             jsonObject.put("uid", user.getId());
             jsonObject.put("timesloat", TIME);
             jsonObject.put("ddate", DATA);
@@ -200,6 +202,7 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
             GetResult getResult = new GetResult();
             getResult.setMyListener(this);
             getResult.callForLogin(call, "1");
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -278,6 +281,8 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
         }
         if (user.getArea() != null || user.getSociety() != null || user.getHno() != null || user.getMobile() != null) {
             JSONArray jsonArray = new JSONArray();
+            String harga  = "";
+            String idnya  = "";
             while (res.moveToNext()) {
 
                 JSONObject jsonObject = new JSONObject();
@@ -290,13 +295,21 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
                     jsonObject.put("cost", res.getString(5));
                     jsonObject.put("qty", res.getString(6));
                     jsonArray.put(jsonObject);
-
+                    harga = res.getString(5);
+                    idnya = res.getString(0);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
             OrderPlace(jsonArray);
+            Toast.makeText(getActivity(),jsonArray.toString(),Toast.LENGTH_LONG).show();
+
             Log.e("JsonList", jsonArray.toString());
+            Intent a = new Intent(getActivity(), BuktiTf.class);
+             a.putExtra("harga",harga);
+             a.putExtra("oid",idnya);
+             a.putExtra("uid",user.getId());
+            startActivity(a);
         } else {
             startActivity(new Intent(getActivity(), AddressActivity.class));
         }

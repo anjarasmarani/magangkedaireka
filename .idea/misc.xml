@@ -4,14 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/bag.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/circale_card.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/circale_green.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/circle.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/close.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/hufround_cart.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/hufround_cart2.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/plus.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/rounded_cart.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/drawable/rounded_green.xml" value="0.14635416666666667" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_abouts.xml" value="0.31565656565656564" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_address.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_base.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_bukti_tf.xml" value="0.152" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_contectus.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_delivery_time2.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/activity_delivery_time2_.xml" value="0.17798913043478262" />
@@ -46,7 +51,7 @@
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_item_list.xml" value="0.4" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_my_order.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_order_sumrry.xml" value="0.17798913043478262" />
-        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_plase_order.xml" value="0.17798913043478262" />
+        <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_plase_order.xml" value="0.536" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/fragment_subcategory.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/item_banner.xml" value="0.17798913043478262" />
         <entry key="..\:/MAGANG/coding/github/app/src/main/res/layout/item_category.xml" value="0.17798913043478262" />

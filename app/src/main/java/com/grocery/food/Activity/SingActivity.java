@@ -178,15 +178,15 @@ public class SingActivity extends AppCompatActivity implements GetResult.MyListe
     public boolean validation() {
 
         if (edUsername.getText().toString().isEmpty()) {
-            edUsername.setError("Enter Name");
+            edUsername.setError("Masukkan Nama");
             return false;
         }
         if (edHoousno.getText().toString().isEmpty()) {
-            edHoousno.setError("Enter House No");
+            edHoousno.setError("Masukkan Nomor Rumah");
             return false;
         }
         if (edSociety.getText().toString().isEmpty()) {
-            edSociety.setError("Enter Society");
+            edSociety.setError("Masukkan Kelurahan / Desa");
             return false;
         }
 //        if (edArea.getText().toString().isEmpty()) {
@@ -194,19 +194,19 @@ public class SingActivity extends AppCompatActivity implements GetResult.MyListe
 //            return false;
 //        }
         if (edLandmark.getText().toString().isEmpty()) {
-            edLandmark.setError("Enter Landmark");
+            edLandmark.setError("Masukkan Kecamatan");
             return false;
         }
         if (edPinno.getText().toString().isEmpty()) {
-            edPinno.setError("Enter Pincode");
+            edPinno.setError("Masukkan Kode Pos");
             return false;
         }
         if (edEmail.getText().toString().isEmpty() || !isEmailValid(edEmail.getText().toString())) {
-            edEmail.setError("Enter Valid Email");
+            edEmail.setError("Masukkan Email yang Valid");
             return false;
         }
         if (edAlternatmob.getText().toString().isEmpty()) {
-            edAlternatmob.setError("Enter Valid mobile");
+            edAlternatmob.setError("Masukkan Nomor Telepon");
             return false;
         }
         return true;

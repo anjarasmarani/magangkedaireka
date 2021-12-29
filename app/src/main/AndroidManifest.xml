@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".MyApplication"
@@ -17,7 +18,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-
+        <activity
+            android:name=".Activity.BuktiTf"
+            android:exported="true" />
         <activity
             android:name=".Activity.BaseActivity"
             android:screenOrientation="portrait"
@@ -48,12 +51,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".Activity.InfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
-            tools:ignore="LockedOrientationActivity"></activity>
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".Activity.ForgotActivity"
             android:screenOrientation="portrait"
@@ -145,8 +147,6 @@
         <meta-data
             android:name="com.razorpay.ApiKey"
             android:value="rzp_test_yOeRS2qjFC7Ict" />
-
-
     </application>
 
 </manifest>

@@ -121,6 +121,7 @@ public class OrderSummaryActivity extends BaseActivity implements GetResult.MyLi
             GetResult getResult = new GetResult();
             getResult.setMyListener(this);
             getResult.callForLogin(call, "1");
+
         } catch (JSONException e) {
             e.printStackTrace();
         }

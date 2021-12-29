@@ -12,9 +12,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class APIClient {
     static Retrofit retrofit = null;
 
-    public static String Base_URL = "https://lautkitabisa.freehost.id/";
+    public static String Base_URL = "http://192.168.56.1/webfrsh/";
 
-    public static final String Append_URL = "/api/";
+    public static final String Append_URL = "api/";
 
 
 
