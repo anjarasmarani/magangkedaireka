@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:padding="2dp"
-                android:text="Kecamatan"
+                android:text="Daerah"
                 android:textSize="16dp" />
 
             <LinearLayout
@@ -108,15 +108,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
-                android:hint="Kota/Kabupaten"
+                android:hint="Kecamatan"
                 android:textColorHint="@color/colorGrey2">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/ed_landmark"
                     android:layout_width="match_parent"
-                    android:textColor="@color/colorGrey2"
                     android:layout_height="wrap_content"
-                    android:hint="Kota/Kabupaten" />
+                    android:hint="Kecamatan"
+                    android:textColor="@color/colorGrey2" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout

@@ -75,7 +75,8 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
     private String TIME;
     private String DATA;
     private String PAYMENT;
-    double TOTAL;
+    public double TOTAL;
+    private String OID;
     public static int paymentsucsses = 0;
     public static boolean ISORDER = false;
 
@@ -203,6 +204,20 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
             getResult.setMyListener(this);
             getResult.callForLogin(call, "1");
 
+            if(PAYMENT.equalsIgnoreCase(getResources().getString(R.string.cash_delivery))){
+                Intent a = new Intent(getActivity(), BuktiTf.class);
+                String total = Double.toString(TOTAL);
+                a.putExtra("harga",total);
+                a.putExtra("metode",getResources().getString(R.string.cash_delivery));
+                a.putExtra("oid",OID);
+                a.putExtra("uid",user.getId());
+                startActivity(a);
+            }
+            if(PAYMENT.equalsIgnoreCase(getResources().getString(R.string.pic_myslf))){
+                Toast.makeText(getActivity(),"Order Succesfull",Toast.LENGTH_LONG).show();
+                Intent a = new Intent(getActivity(),HomeActivity.class);
+                startActivity(a);
+            }
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -241,26 +256,27 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
                 ClearFragment();
                 break;
             case R.id.btn_cuntinus:
-                if (PAYMENT.equalsIgnoreCase(getResources().getString(R.string.pay_online))) {
-                    startActivity(new Intent(getActivity(), RazerpayActivity.class).putExtra("amount", TOTAL));
-                } else {
+                // gak kepake
+//                if (PAYMENT.equalsIgnoreCase(getResources().getString(R.string.pay_online))) {
+//                    startActivity(new Intent(getActivity(), RazerpayActivity.class).putExtra("amount", TOTAL));
+//                } else {
                     sendorderServer();
-                }
+                //}
 
                 break;
         }
     }
 
     public void ClearFragment() {
-//        FragmentManager fm = getActivity().getSupportFragmentManager();
-//        for (int i = 0; i < fm.getBackStackEntryCount(); i++) {
-//            if (i == 1) {
-//                Log.e("fragment ", "-->" + fm.getFragments().get(i));
-//            } else {
-//                fm.popBackStack();
-//            }
-//
-//        }
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        for (int i = 0; i < fm.getBackStackEntryCount(); i++) {
+            if (i == 1) {
+                Log.e("fragment ", "-->" + fm.getFragments().get(i));
+            } else {
+                fm.popBackStack();
+            }
+
+        }
 
         SessionManager sessionManager = new SessionManager(getActivity());
         User user = sessionManager.getUserDetails("");
@@ -295,21 +311,17 @@ public class OrderSumrryFragment extends Fragment implements GetResult.MyListene
                     jsonObject.put("cost", res.getString(5));
                     jsonObject.put("qty", res.getString(6));
                     jsonArray.put(jsonObject);
-                    harga = res.getString(5);
-                    idnya = res.getString(0);
+                    OID = res.getString(0);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
             OrderPlace(jsonArray);
-            Toast.makeText(getActivity(),jsonArray.toString(),Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(),jsonArray.toString(),Toast.LENGTH_LONG).show();
 
             Log.e("JsonList", jsonArray.toString());
-            Intent a = new Intent(getActivity(), BuktiTf.class);
-             a.putExtra("harga",harga);
-             a.putExtra("oid",idnya);
-             a.putExtra("uid",user.getId());
-            startActivity(a);
+
+
         } else {
             startActivity(new Intent(getActivity(), AddressActivity.class));
         }

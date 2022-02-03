@@ -314,7 +314,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:padding="5dp"
-                            android:text="Privacy Policy"
+                            android:text="FAQ"
                             android:textColor="@color/colorBalck" />
 
                     </LinearLayout>

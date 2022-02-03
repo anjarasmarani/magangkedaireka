@@ -60,6 +60,8 @@ public class BuktiTf extends AppCompatActivity
 
         TextView t1;
         TextView t2;
+        String a;
+        String b;
         Button browse,upload;
         ImageView img;
         Bitmap bitmap;
@@ -75,10 +77,12 @@ public class BuktiTf extends AppCompatActivity
         TextView harga = findViewById(R.id.harga);
         TextView oid = findViewById(R.id.oid);
         TextView uid = findViewById(R.id.uid);
+        a =intent.getStringExtra("oid");
+        b =intent.getStringExtra("uid");
 
             harga.setText("Total Transfer = "+ intent.getStringExtra("harga"));
-            oid.setText("ID ORDER : "+ intent.getStringExtra("oid"));
-            uid.setText("ID USER : "+ intent.getStringExtra("uid"));
+            oid.setText("ORDER NUMBER : "+ a);
+            uid.setText("ID USER : "+ b);
 
             img=(ImageView)findViewById(R.id.image);
             upload=(Button)findViewById(R.id.upload);
@@ -115,6 +119,8 @@ public class BuktiTf extends AppCompatActivity
                 @Override
                 public void onClick(View view) {
                     uploaddatatodb();
+                    Intent a = new Intent(BuktiTf.this,HomeActivity.class);
+                    startActivity(a);
                 }
             });
 
@@ -168,7 +174,7 @@ public class BuktiTf extends AppCompatActivity
                 {
                     t1.setText("");
                     t2.setText("");
-                    img.setImageResource(R.drawable.keramba1);
+                    img.setImageResource(R.drawable.ic_photo_camera_black_48dp);
                     Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_LONG).show();
                 }
             }, new Response.ErrorListener() {
@@ -182,9 +188,10 @@ public class BuktiTf extends AppCompatActivity
                 protected Map<String, String> getParams() throws AuthFailureError
                 {
                     Map<String,String> map=new HashMap<String, String>();
-                    map.put("uid","1");
-                    map.put("oid","2");
+                    map.put("uid",a);
+                    map.put("oid",b);
                     map.put("image",encodeImageString);
+                    map.put("harga","1000");
                     return map;
                 }
             };

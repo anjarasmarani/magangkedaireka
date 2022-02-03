@@ -144,9 +144,11 @@ public class PlaceOrderFragment extends Fragment implements View.OnClickListener
 
     private void setPaymentList() {
 //        String[] paymen = {"Pickup myself", "Cash on delivery", "Pay with online"};
-        String[] paymen = {getResources().getString(R.string.pic_myslf), getResources().getString(R.string.cash_delivery), getResources().getString(R.string.pay_online)};
+        String[] paymen = {getResources().getString(R.string.pic_myslf), getResources().getString(R.string.cash_delivery)
+                //, getResources().getString(R.string.pay_online)
+                };
         RadioButton rdbtn = null;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) { // jumlahnya 2 payment
             rdbtn = new RadioButton(getActivity());
             rdbtn.setId(View.generateViewId());
             rdbtn.setText(paymen[i]);
